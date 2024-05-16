@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#postcard {
+  background-color: #20053e;
+}
+
+#postcard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#postcard li {
+  border-radius: 7px;
+  border: 1px solid rgb(255 255 255);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.love {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.share {
+  margin-right: 20px;
+  display: inline-block;  
+}
+
+.dropdown{
+  margin-right: 20px;
+  display: inline-block;  
+}
+
+#postcard li img {
+  height: fit-content;
+  width: 30vw;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#user img {
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.description {
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.username {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 25px;
+  color: rgb(255 255 255);
+}
+
+.username img {
+  border-radius: 100%;
+}
+
+.username span {
+  vertical-align: top;
+  font-size: 20px;
+}
+
+.icons {
+  padding: 15px;
+}
